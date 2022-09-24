@@ -1,0 +1,59 @@
+body{
+    font-family: monospace;
+    background-color: black;
+    color:white;
+    font-size: 1.3rem;
+}
+
+#inicio{
+    padding: 5px;
+    background-color: #101010;
+}
+
+h1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+}
+
+#img-div{
+    line-height: 1.6;
+    background-color: #101010;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#image{
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#image-caption{
+    margin: 15px 0 5px 0;
+}
+
+#tribute-info{
+    justify-content: center;
+}
+
+ul {
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+  
+li {
+    margin: 16px 0;
+}
+

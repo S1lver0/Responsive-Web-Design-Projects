@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+
+#navbar{
+    position: fixed;
+    height: 100%;
+    border: 2px solid #555555;
+}
+#navbar header{
+    border: 2px solid #555555;
+}
+
+#navbar h1{
+    margin: 0px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+#navbar ul li{
+    border: 1px solid #555555;
+    padding: 15px;
+    list-style: none;
+}
+
+#navbar ul{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+a{
+    color: #555555
+    ;
+    text-decoration: none;
+}
+
+#main-doc{
+    padding: 25px;
+    padding-left: 325px;
+}
+
+.descri{
+    padding-left: 20px;
+}
+
+.descri ul li{
+    padding: 7px;
+    line-height: 1.6em;
+}
+
+p{
+    line-height: 1.6em;
+}
+
+code{
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+@media(max-width: 800px){
+    body{
+        flex-direction: column;
+    }
+    #navbar{
+        min-width: 350px;
+        height: 368px;
+        position: static;
+    }
+
+    #navbar h1{
+        padding-left: 15%;
+        text-align: center;
+    }
+    #main-doc{
+        padding-left: 20px;
+    }
+}
+#ex{
+    background-color: silver;
+}
+#ex code{
+    background-color: white;
+}

@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+}
+
+nav a{
+    font-weight: 600;
+    color: white;
+    padding: 25px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+#welcome-section{
+    background-color: silver;
+    background: rgba(0,0,0,0.7) url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a773a2dc-1abd-4c03-ac56-b9f8a4c1765b/dfe1ajw-dee29c6b-ef4c-43fd-858d-fe81aab658a1.jpg/v1/fill/w_1280,h_720,q_75,strp/wp2234604_by_silver9523_dfe1ajw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTc3M2EyZGMtMWFiZC00YzAzLWFjNTYtYjlmOGE0YzE3NjViXC9kZmUxYWp3LWRlZTI5YzZiLWVmNGMtNDNmZC04NThkLWZlODFhYWI2NThhMS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wBIQlFdgb-fX0NW0lzq-fxkOpFRxthJyHwKgNxrGY3Y');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#welcome-section p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0px;
+    color: #df142f;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+    background-color: #45567d;
+}
+
+#projects h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#projects hr{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#container{
+    max-width: 750px;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 18rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    padding: 20px;
+}
+
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 8px;
+}
+
+.project-tile img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+}
+
+.project-tile h2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin: 0px;
+    background-color:#303841;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+#contact{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+}
+
+.link-li{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#contact h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.icon{
+    height:40px;
+}
+
+
+#contact p{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#black{
+    background-color: black;
+    height: 6px;
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    margin-right: 20px;
+}
+
+footer div{
+    padding-left: 15px;
+    height: 120px;
+    font-size: 12px;
+    width: 350px;
+}
+
+#link a{
+    color: black;
+}
+
+
+
+
+
+
+@media(max-width:750px){
+    nav{
+        justify-content: end;
+    }
+    nav a{
+        padding: 18px;
+    }
+    #welcome-section h1{
+        font-size: 35px;
+    }
+    #welcome-section p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #container{
+        width: 80%;
+    }
+    #link{
+        flex-direction: column;
+        padding-left: 30%;
+    }
+
+    footer{
+        justify-content: center;
+    }
+
+    #contact h1{
+        font-size: 20px;
+    }
+    #contact {
+        height: 500px;
+    }
+
+    footer div p{
+        margin: 0px;
+    }
+
+    footer div h3{
+        margin: 0px;
+    }
+    footer div{
+        height: 90px;
+    }
+}

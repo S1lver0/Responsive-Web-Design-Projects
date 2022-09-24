@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="background">
+    <header>
+        <div>
+            <h1 id="title">Glory 2.0</h1>
+            <p>Torneo mundial de Smash Ultimate</p>
+        </div>
+    </header>
+    <main id="container">
+        <form id="survey-form">
+            <div class="formg">
+                <label for="Name" id="name-label">Nombre</label>
+                <br><br>
+                <input class="formi" type="text" name="Name" id="Name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="formg">
+                <label for="Email" id="email-label">Email</label>
+                <br><br>
+                <input class="formi" type="email" name="Email" id="Email" placeholder="Ingresa tu email" required>
+            </div>
+            <div class="formg">
+                <label for="Edad" id="number-label">Edad</label>
+                <br><br>
+                <input class="formi" type="number" name="Edad" id="Edad" placeholder="Ingresa tu edad" min="15" max="75">
+            </div>
+            <div class="formg">
+                <p>Participaste en alguno de estos torneos?</p>
+                <select  class="formi" id="dropdown">
+                    <option disabled selected value>Seleccione uno de estos torneos</option>
+                    <option value="Tech Republic V">Tech Republic V</option>
+                    <option value="Icarus VI">Icarus VI</option>
+                    <option value="Stunfest">Stunfest</option>
+                    <option value="DreamHack Summer">DreamHack Summer</option>
+                </select>
+            </div>
+            <div class="formg">
+                <p>Indique su genero</p>
+                <label><input type="radio" name="user" value="Hombre">Hombre</label>
+                <br>
+                <label><input type="radio" name="user" value="Mujer">Mujer</label>
+                <br>
+                <label><input type="radio" name="user" value="Otro">Otro</label>
+            </div>
+            <div class="formg">
+                <p>Es main de alguno de estos personajes?</p>
+                <label><input type="checkbox" name="mario" value="mario">Mario</label>
+                <br>
+                <label><input type="checkbox" name="link" value="link">Link</label>
+                <br>
+                <label><input type="checkbox" name="nes" value="nes">Nes</label>
+                <br>
+                <label><input type="checkbox" name="marth" value="marth">Marth</label>
+                <br>
+                <label><input type="checkbox" name="falcol" value="falcon">Falcon</label>
+            </div>
+            <div class="formg">
+                <p>En el caso de notar problemas en su inscripción </p>
+                <textarea class="formi" name="extra" id="extra" placeholder="Tuvo problemas con su inscripcion ?"></textarea>
+            </div>
+            <div class="formg">
+                <button type="submit" id="submit">Enviar</button>
+            </div>
+        </form>
+    </main> 
+</body>
+</html>
